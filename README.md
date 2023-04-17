@@ -30,15 +30,24 @@ Reflected_image_row=cv2.warpPerspective(org_img,Reflection_matrix_row,(col,int(r
 
 ## Program:
 
+<<<<<<< HEAD
 Developed By: Soundariyan M N 
 Register Number: 212222230146
+=======
+Developed By: Barath S 
+Register Number: 212222230018
+>>>>>>> 442b2694107cd0ed7842eda65c433d8563d3d85b
 i)Image Translation
 ```python
 import numpy as np
 import cv2
 import matplotlib.pyplot as plt
 
+<<<<<<< HEAD
 image = cv2.imread('virat1.jpg')
+=======
+image = cv2.imread('images.jpeg')
+>>>>>>> 442b2694107cd0ed7842eda65c433d8563d3d85b
 image1 = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
 rows, cols, dim = image1.shape
 
@@ -59,7 +68,11 @@ import numpy as np
 import cv2
 import matplotlib.pyplot as plt
 
+<<<<<<< HEAD
 image = cv2.imread('virat1.jpg')
+=======
+image = cv2.imread('images.jpeg')
+>>>>>>> 442b2694107cd0ed7842eda65c433d8563d3d85b
 image1 = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
 
 rows, cols, dim = image1.shape
@@ -77,7 +90,11 @@ import numpy as np
 import cv2
 import matplotlib.pyplot as plt
 
+<<<<<<< HEAD
 image = cv2.imread('virat1.jpg')
+=======
+image = cv2.imread('images.jpeg')
+>>>>>>> 442b2694107cd0ed7842eda65c433d8563d3d85b
 image1 = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
 
 rows, cols, dim = image1.shape
@@ -99,7 +116,11 @@ import numpy as np
 import cv2
 import matplotlib.pyplot as plt
 
+<<<<<<< HEAD
 image = cv2.imread('virat1.jpg')
+=======
+image = cv2.imread('images.jpeg')
+>>>>>>> 442b2694107cd0ed7842eda65c433d8563d3d85b
 image1 = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
 rows, cols, dim = image1.shape
 
@@ -126,7 +147,11 @@ import numpy as np
 import cv2
 import matplotlib.pyplot as plt
 
+<<<<<<< HEAD
 image = cv2.imread('virat1.jpg')
+=======
+image = cv2.imread('images.jpeg')
+>>>>>>> 442b2694107cd0ed7842eda65c433d8563d3d85b
 image1 = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
 rows, cols, dim = image1.shape
 angle = np.radians(10)
